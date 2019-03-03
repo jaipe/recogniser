@@ -1,0 +1,24 @@
+{
+  "name": "recogniser",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/node": "^10.12.12",
+    "brain.js": "^1.4.10",
+    "canvas": "^2.1.0",
+    "check-color": "^1.0.0",
+    "get-pixels": "^3.3.2",
+    "gm": "^1.23.1",
+    "memoize": "^0.1.1",
+    "memoize-one": "^5.0.0",
+    "robot-js": "2.0.0",
+    "screenshot-desktop": "^1.5.3",
+    "typescript": "^3.2.1"
+  },
+  "scripts": {
+    "postinstall": "npm link robot-js",
+    "start": "cp src/ts/** -r dist && tsc && node dist/index.js",
+    "debug": "tsc && node --inspect --inspect-brk dist/index.js",
+    "clean": "rm .tmp/.delete/* -fr"
+  }
+}
