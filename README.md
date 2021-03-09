@@ -1,10 +1,10 @@
 ## recogniser
 
-### WTF?
+### What is this?
 
 Just putting this up here for storage, it's become a bit of a dumping ground of various experiments, but feel free to be inspired by it :-)
 
-### WTF (still)?
+### Ummm.... Still not sure....
 
 This was a rough stab at a few image manipulation techniques used for image recognition via NNs, including capturing relevant data, transforming it and feeding it into a NN. It involves:
 
